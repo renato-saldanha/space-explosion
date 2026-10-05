@@ -1,0 +1,14 @@
+.header-contanier {
+    position: absolute;
+    width: 100vw;
+    top: 4%;
+    left: 50%;
+    border-top: 3px solid ;
+    border-bottom: 3px solid;
+    transform: translate(-50%, -50%);
+    padding: 30px 20px;
+    font-size: 54px;
+    text-align: center;
+    color: #02024f;
+    background-color: #171d90;
+}

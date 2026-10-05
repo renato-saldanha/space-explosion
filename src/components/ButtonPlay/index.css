@@ -1,0 +1,13 @@
+.button-play {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid #4f09cf;
+    border-radius: 40px;
+    padding: 23px 10px;
+    font-size: 46px;
+    color: #0707ab;
+    background-color: #363ed4;
+}
