@@ -2,7 +2,6 @@ import { Assets, Texture } from "pixi.js";
 import { useEffect, useState } from "react";
 
 
-
 const useTexture = (assetPath: string) => {
     const [texture, setTexture] = useState<Texture>(Texture.EMPTY);
 

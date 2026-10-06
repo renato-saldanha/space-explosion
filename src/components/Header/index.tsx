@@ -5,6 +5,8 @@ import { tickScreen } from '../../helpers/commom';
 import './index.css';
 
 import type { ScreenPlayProps } from '../../types/types';
+
+
 const Header = ({ playing }: ScreenPlayProps) => {
     const [isHeaderVisible, setIsHeaderVisible] = useState(true);
 
@@ -19,7 +21,7 @@ const Header = ({ playing }: ScreenPlayProps) => {
                     SPACE EXPLOSION
                 </header >
             ) :
-            <div ></div>
+            <div></div>
     );
 }
 
